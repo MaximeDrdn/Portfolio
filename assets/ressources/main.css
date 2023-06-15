@@ -661,6 +661,10 @@ footer {
     margin-left: -10em;
 }
 
+#SK a {
+    color: white;
+}
+
 #Gantt {
     width: 165%;
 }
