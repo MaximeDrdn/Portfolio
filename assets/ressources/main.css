@@ -664,3 +664,7 @@ footer {
 #Gantt {
     width: 165%;
 }
+
+#txt>p>a {
+    color: white;
+}
