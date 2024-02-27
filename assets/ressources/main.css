@@ -195,7 +195,7 @@ header>nav>ul>li.button_top_right>a {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--grey-level-2);
-    height: 40em;
+    height: max-content;
 }
 
 #a_propos>#txt {
@@ -319,11 +319,7 @@ footer {
 /* FOOTER */
 
 
-@media screen and (max-width:1300px) {
-    #a_propos {
-        height: 50em;
-    }
-}
+
 
 @media screen and (max-width:1075px) {
     .filter>h1{
@@ -360,10 +356,7 @@ footer {
         font-size: 70px;
     }
 
-    header>nav>ul>li {
-        
-        
-    }
+    
 
     #a_propos>#avatar_form {
         justify-content: inherit;
@@ -373,9 +366,7 @@ footer {
         margin-left: 5em;
     }
 
-    #a_propos {
-        height: 55em;
-    }
+    
 
     #img_gowork {
         height: 360px;
@@ -396,9 +387,7 @@ footer {
         width: 100%;
     }
 
-    #a_propos {
-        height: 40em;
-    }
+    
 
     #download_button {
         margin-left: 38% !important;
@@ -411,8 +400,172 @@ footer {
     
 }
 
+@media screen and (max-width:760px) {
+    #bloc_contact>nav>ul>li>p {
+        left: 6% !important;
+    }
+}
+
+#download_button {
+    margin-left: 35% !important;
+}
+
+.filter>h1 {
+    font-size: 60px;
+}
+
+@media screen and (max-width:700px) {
+    .hero_header {
+        height: 30em;
+    }
+
+    #a_propos>#txt>h1 {
+        font-size: 1.6em;
+    }
+
+    #a_propos>#txt>p {
+        font-size: 0.9em;
+    }
+
+    header>img {
+        width: 75px;
+        height: 75px;
+    }
 
 
+    
+}
+
+@media screen and (max-width:660px) {
+    .filter>h1 {
+        font-size: 45px;
+        margin-top: 2em;
+    }
+
+    .hero_header {
+        height: 20em;
+    }
+
+    header>nav>ul>li {
+        font-size: 11px;
+    }
+
+    #a_propos>#txt>h1 {
+        font-size: 1.4em;
+    }
+
+    #a_propos>#txt>p {
+        font-size: 0.8em;
+    } 
+
+    #download_button {
+        font-size: 0.8em;
+    }
+
+    #bloc_contact>h1  {
+        font-size: 1.4em;
+    }
+
+    #bloc_contact>nav>ul>li>p {
+        font-size: 0.8em;
+    }
+
+    footer {
+        font-size: 0.8em;
+        height: 1em;
+    }
+
+    header>img {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    header>nav {
+        margin-right: -30px;
+    }
+
+    header>img {
+        margin-left: -30px;
+    }
+
+    .filter>h1 {
+        font-size: 35px;
+    }
+
+    #a_propos>#txt>h1 {
+        font-size: 1.2em;
+    }
+
+    #a_propos {
+        padding: 35px;
+    }
+
+    #bloc_contact {
+        padding: 2em;
+    }
+
+    #bloc_contact>h1 {
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .hero_header {
+        height: 14em;   
+    }
+
+    .filter>h1 {
+        font-size: 30px;
+        margin-top: 4em;
+    }
+
+    header>nav>ul>li {
+        font-size: 9px;
+    }
+
+    #bloc_contact {
+        padding: 1em;
+    }
+
+    #a_propos {
+        padding: 1em;
+    }
+
+    #a_propos>#txt>h1 {
+        font-size: 1em;
+    }
+
+    #a_propos>#txt>p {
+        font-size: 0.7em;
+    }
+
+    #bloc_contact>h1 {
+        font-size: 1em;
+    }
+
+    #bloc_contact>nav>ul>li>p {
+        font-size: 0.7em;
+
+    }
+
+    #download_button {
+        font-size: 0.7em;
+    }
+
+    header>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    header>nav>ul>li:not(.button_top_right), header>nav>ul>li.button_top_right>a {
+        padding: 0.8em 1em;
+    }
+}
 /* PAGE PROJETS */
 
 /* HERO HEADER */
