@@ -565,6 +565,18 @@ footer {
     header>nav>ul>li:not(.button_top_right), header>nav>ul>li.button_top_right>a {
         padding: 0.8em 1em;
     }
+
+    #bloc_contact>nav>ul>li>p {
+        left: 8% !important;
+    }
+    
+    #download_button {
+        margin-left: 32% !important;
+    }
+
+    header>nav>ul>li.button_top_right {
+        margin-left: 1em;
+    }
 }
 /* PAGE PROJETS */
 
