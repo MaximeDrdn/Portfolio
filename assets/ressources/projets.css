@@ -170,22 +170,25 @@ header>nav>ul>li.button_top_right>a {
 }
 
 .filter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.grey_filter {
     background-color: black;
-    opacity: 70%;
+    opacity: 50%;
     height: 100%;
     width: 100%;
-
     position: absolute;
 }
 
-.hero_header2>h1 {
+.filter2>h1 {
     color: white;
     font-size: 100px;
 
-    position: absolute;
     z-index: 4;
-    top: 40%;
-    left: 32%;
     font-family: 'montserrat-semibold-italic', sans-serif;
 }
 
@@ -321,52 +324,12 @@ header>nav>ul>li.button_top_right>a {
     margin-bottom: 0.4em;
 }
 
-#compétence2 .img1 {
+.img1 {
     width: 45%;
     margin-top: 1em;
 }
 
-#compétence2 .img2 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence3 .img1 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence3 .img2 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence4 .img1 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence4 .img2 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence5 .img1 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence5 .img2 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence6 .img1 {
-    width: 45%;
-    margin-top: 1em;
-}
-
-#compétence6 .img2 {
+.img2 {
     width: 45%;
     margin-top: 1em;
 }
@@ -505,6 +468,22 @@ header>nav>ul>li.button_top_right>a {
     color: white;
 }
 
+.imageDeProjet {
+    width: 10em;
+    height: 8em;
+}
+
+
+@media screen and (max-width:1280px) {
+    #liste_projets {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5em;
+        width: 15em;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+}
 
 
 @media screen and (max-width:1075px) {
